@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int print_array(int a[],int size){
+int print_array(double a[],int size){
 	for(int i=0; i<size; i++){
 		cout<<a[i]<<",";
 	}
@@ -17,4 +17,5 @@ int main()
  print_array(a,5);
 	
 }
+
 
